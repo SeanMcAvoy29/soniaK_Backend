@@ -66,6 +66,5 @@ ALTER TABLE Project_Tech
     
 ALTER TABLE Employee_Project
 	ADD PRIMARY KEY (Employee_ID, Project_ID);
-    
 
 
