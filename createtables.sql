@@ -11,6 +11,7 @@ CREATE TABLE Employee (
 	
 );
 
+
 CREATE TABLE `Client` (
 	ClientID SMALLINT UNSIGNED,
 	F_Name varchar(30),
@@ -66,6 +67,7 @@ ALTER TABLE Project_Tech
     
 ALTER TABLE Employee_Project
 	ADD PRIMARY KEY (Employee_ID, Project_ID);
+
     
 
 ALTER TABLE Employee MODIFY EmployeeID SMALLINT UNSIGNED AUTO_INCREMENT;
