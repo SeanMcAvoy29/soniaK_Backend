@@ -53,4 +53,13 @@ CREATE TABLE Technology (
 	PRIMARY KEY (Tech_ID)
 );
 
+ALTER TABLE Project
+	ADD FOREIGN KEY (Client_ID) REFERENCES Client(ClientID),
+    ADD CONSTRAINT Tech_Lead FOREIGN KEY (Tech_Lead) REFERENCES Employee(EmployeeID),
+    ADD CONSTRAINT Sales_Rep FOREIGN KEY (Sales_Rep) REFERENCES Employee(EmployeeID);
+    
+ALTER TABLE Employee
+	ADD FOREIGN KEY (Department) REFERENCES Department(DepartmentID);
+    
+
 
