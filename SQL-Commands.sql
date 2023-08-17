@@ -15,4 +15,17 @@ insert into Department (DepartmentID,DepartmentName)
 Values (2,'Tech');
 
 insert into Technology (Tech_ID,Tech_Name)
+
 Values (1,'Javascript');
+
+insert into Project (Project_ID,Client_ID,Project_Name,Cost,Tech_Lead,Sales_Rep)
+Values (1,1,'Installing New Antivirus Software','23,000',1,2);
+
+
+insert into Department (DepartmentID,DepartmentName)
+Values (3,'Delivery');
+insert into Employee (F_Name,L_Name,Salary,Bank_Acc_Number,NI_Number,Department)
+Values ('Rachel','Done','35000','12436879','GY1278597',3);
+=======
+Values (1,'Javascript');
+
