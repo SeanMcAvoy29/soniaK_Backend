@@ -61,5 +61,10 @@ ALTER TABLE Project
 ALTER TABLE Employee
 	ADD FOREIGN KEY (Department) REFERENCES Department(DepartmentID);
     
+ALTER TABLE Project_Tech
+	ADD PRIMARY KEY (Project_ID, Tech_ID);
+    
+ALTER TABLE Employee_Project
+	ADD PRIMARY KEY (Employee_ID, Project_ID);
 
 
