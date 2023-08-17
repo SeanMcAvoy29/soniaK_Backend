@@ -1,7 +1,5 @@
 Use Kainoos_SeanM;
 
-select * from Client;
-
 insert into Client (F_Name,L_Name,Address,Phone_Number)
 Values ('Jeck','Masion','123 Ban St','12349875782');
 
@@ -18,15 +16,3 @@ Values (2,'Tech');
 
 insert into Technology (Tech_ID,Tech_Name)
 Values (1,'Javascript');
-
--- insert into Project (Project_ID,Client_ID,Project_Name,Cost,Tech_Lead,Sales_Rep)
--- Values (1,1,'Installing New Antivirus Software','23,000',2,1);
-
-
-
-
-
-
-
-
-
