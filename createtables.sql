@@ -11,7 +11,8 @@ CREATE TABLE Employee (
 	
 );
 
-CREATE TABLE Client (
+
+CREATE TABLE `Client` (
 	ClientID SMALLINT UNSIGNED,
 	F_Name varchar(30),
 	L_Name varchar(30),
@@ -66,5 +67,22 @@ ALTER TABLE Project_Tech
     
 ALTER TABLE Employee_Project
 	ADD PRIMARY KEY (Employee_ID, Project_ID);
+
+    
+
+ALTER TABLE Employee MODIFY EmployeeID SMALLINT UNSIGNED AUTO_INCREMENT;
+ALTER TABLE Project MODIFY Project_ID SMALLINT UNSIGNED AUTO_INCREMENT;
+ALTER TABLE Technology MODIFY Tech_ID SMALLINT UNSIGNED AUTO_INCREMENT;
+ALTER TABLE Department MODIFY DepartmentID SMALLINT UNSIGNED AUTO_INCREMENT;
+
+
+
+
+
+
+
+
+
+    
 
 
